@@ -6,7 +6,7 @@ user = smooth(person);
 L = length(user);
 Y = fft(user);
 P2 = abs(Y/L);
-P1 = P2(1:L/2+1);
+P1 = P2(1:ceil(L/2)+1);
 % f = fs*(0:(L/2))/L;
 P1 = rescale(P1);
 % plot(f,P1)
