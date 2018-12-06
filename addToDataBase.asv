@@ -1,0 +1,9 @@
+function weightMatrix = addToDataBase(weightMatrix,number)
+
+weightMatrix(number,(1:60)) = plotFFT('Princess Ukazim/1.wav');
+weightMatrix(number,(61:120)) = plotFFT('Lauren Heinrich/2.wav');
+weightMatrix(number,(121:180)) = plotFFT('Lauren Heinrich/3.wav');
+weightMatrix(number,(181:240)) = plotFFT('Lauren Heinrich/4.wav');
+weightMatrix(number,(241:300)) = plotFFT('Lauren Heinrich/5.wav');
+
+weightMatrix = weightMatrix;
